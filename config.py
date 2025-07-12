@@ -1,0 +1,31 @@
+porto_config = {
+    'city_name': 'Porto',
+    'seed': 42,
+    'num_train_trajs': 500000,
+    'num_hyperedges': 5000,
+
+    'seg_id_dim': 64,
+    'seg_len_dim': 32,
+    'seg_lng_dim': 16,
+    'seg_lat_dim': 16,
+    'seg_vis_dim': 128,
+
+    'seg_hidden_dim': 128,
+    'seg_latent_dim1': 64,
+    'seg_latent_dim2': 32,
+    'tra_hidden_dim': 128,
+    'tra_latent_dim1': 64,
+    'tra_latent_dim2': 32,
+
+    'edge_remove_ratio': 0.4,
+    'hyper_remove_ratio': 0.4,
+    'lr': 1e-3,
+    'wd': 1e-6,
+    'num_epochs': 200,
+    'seg_tau': 0.1,
+    'tra_tau': 0.1,
+    'cross_tau': 0.4,
+    'lambda1': 1,
+    'lambda2': 0.5,
+    'lambda3': 1,
+}
